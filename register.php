@@ -9,7 +9,7 @@
         if (empty(trim($_POST['username']))) {
             $usernameErr = 'Please enter a username';
         } elseif (strlen(trim($_POST['username'])) > 10) {
-            $usernameErr = 'Username must only have at most 10 characters';
+            $usernameErr = 'invalid! username must 10 alphanumeric characters only';
         } else {
             $sql = 'SELECT * FROM users WHERE username = ?';
             $statement = mysqli_prepare($link, $sql);

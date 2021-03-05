@@ -120,7 +120,8 @@
                 <div class="form-group">
                     <input type="submit" class="btn btn-primary" value="Login">
                 </div>
-                <p>Don't have an account? <a href="register.php">Register</a></p> <!-- previous content login.php -->
+                <p>Don't have an account? <a href="register.php">Register</a></p>
+                <!-- i changed the value in anchor tag  -->
             </form>
         </div>
     </body>
